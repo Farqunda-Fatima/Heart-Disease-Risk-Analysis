@@ -1,86 +1,139 @@
-This project analyzes a heart disease dataset to identify patterns and risk factors associated with heart disease. Using Python data analysis libraries, the project performs data cleaning, exploratory data analysis (EDA), and visualization to understand how different health parameters influence heart disease.
+ Heart Disease Prediction System
 
- Objective
+A Machine Learning project to predict the presence of heart disease based on medical attributes such as age, cholesterol levels, blood pressure, and other health indicators.
 
-The objective of this project is to explore patient health data and analyze factors that contribute to heart disease using data visualization and statistical insights.
+---
+ 📌 Project Overview
 
-Dataset
+This project analyzes patient health data to determine whether a person is at risk of heart disease. It includes data preprocessing, exploratory data analysis (EDA), and classification model building.
 
-The dataset used is heart.csv, which contains medical attributes related to heart health.
+---
 
-Features include:
+ 📊 Dataset Information
 
-Age
+The dataset includes the following features:
 
-Sex
+* **age** – Age of the patient
+* **sex** – Gender
+* **cp** – Chest pain type
+* **trestbps** – Resting blood pressure
+* **chol** – Cholesterol level
+* **fbs** – Fasting blood sugar
+* **restecg** – Resting ECG results
+* **thalach** – Maximum heart rate achieved
+* **exang** – Exercise-induced angina
+* **oldpeak** – ST depression
+* **slope** – Slope of peak exercise ST segment
+* **ca** – Number of major vessels
+* **thal** – Thalassemia
+* **target** – Presence of heart disease (0 = No, 1 = Yes)
 
-ChestPainType
+---
 
-RestingBP (Resting Blood Pressure)
+ ⚙️ Technologies Used
 
-Cholesterol
+* Python 🐍
+* Jupyter Notebook 📓
+* Pandas
+* NumPy
+* Matplotlib & Seaborn
+* Scikit-learn
 
-Fasting Blood Sugar
+---
 
-MaxHR (Maximum Heart Rate)
+🔍 Project Workflow
 
-ExerciseAngina
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Selection
+5. Model Training
+6. Model Evaluation
 
-Oldpeak
+---
 
-ST_Slope
+ 🤖 Machine Learning Models
 
-HeartDisease (Target Variable)
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* K-Nearest Neighbors (KNN)
 
-Technologies Used
+---
 
-Python
+📈 Key Insights
 
-Jupyter Notebook
+* Age and cholesterol significantly impact heart disease risk
+* Chest pain type is a strong indicator
+* Exercise-induced angina correlates with higher risk
+* Maximum heart rate plays an important role
 
-Pandas
+---
 
-NumPy
+ 🚀 How to Run
 
-Matplotlib
+1. Clone the repository:
 
-Seaborn
+```bash
+git clone https://github.com/your-username/Heart-Disease-Prediction.git
+```
 
- Project Workflow
-1️ Data Loading
+2. Navigate to the folder:
 
-The dataset is imported using Pandas.
+```bash
+cd Heart-Disease-Prediction
+```
 
-2️ Data Cleaning
+3. Install dependencies:
 
-Checked for missing values
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
-Replaced invalid values (0) in Cholesterol and RestingBP with mean values.
+4. Run the notebook:
 
-3️ Exploratory Data Analysis (EDA)
+```bash
+jupyter notebook Heart.ipynb
+```
 
-Performed analysis using:
+---
 
-Histograms
+📁 Project Structure
 
-Count plots
+```
+├── heart.csv
+├── Heart.ipynb
+├── README.md
+```
 
-Box plots
+---
 
-Violin plots
+ 🎯 Future Improvements
 
-4️ Data Visualization
+* Deploy as a web app (Flask / Streamlit)
+* Add real-time prediction system
+* Improve accuracy using advanced models (XGBoost)
+* Add GUI for user input
 
-Used Seaborn and Matplotlib to visualize relationships between features and heart disease.
+---
 
-5️ Correlation Analysis
+ 🤝 Contributing
 
-Heatmap used to understand correlations between numerical features.
+Contributions are welcome! Feel free to fork and improve the project.
 
- Key Insights
+---
 
-Age and cholesterol levels influence heart disease risk.
+📜 License
 
-Certain chest pain types show higher association with heart disease.
+This project is open-source under the MIT License.
 
-Heart rate and blood pressure also show notable patterns.
+---
+
+👨‍💻 Author
+
+Farqunda Fatima
+---
+🔹 Suggested Repo Name
+
+👉 **Heart-Disease-Prediction-System**
+
